@@ -1,0 +1,294 @@
+// Que 1//
+
+/*
+public class QueOne{
+public static void main(String args[])
+{
+System.out.println("Hello");
+System.out.println("Alexandra Abramov");
+}
+}
+*/
+
+//Que 2//
+
+/*
+class Addition{
+public static void main(String args[])
+{
+int a= 74;
+int b= 36;
+int k= a+b;
+System.out.println("Addition "+k);
+}
+}
+*/
+
+//Que 3//
+
+/*
+class Division{
+public static void main(String args[])
+{
+int a= 50;
+int b= 3;
+int k= a/b;
+System.out.println("Division "+k);
+}
+}
+*/
+
+ //Que 4//
+
+/*
+class QueFour{
+public static void main(String args[]){
+  System.out.println(-5 + 8 * 6);
+  System.out.println((55+9) % 9);
+  System.out.println(20 + -3*5 / 8);
+  System.out.println(5 + 15 / 3 * 2 - 8 % 3);
+ }
+}
+*/
+
+
+//Que 5//
+/*
+import java.util.Scanner;
+class QueFive
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Input first number");
+int i= sc.nextInt();
+System.out.println("Input second number");
+int j= sc.nextInt();
+int k= i*j;
+System.out.println("Multiplication is "+k);
+}
+}
+*/
+
+//Que 6//
+
+/*
+import java.util.Scanner;
+class Quesix
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Input first number");
+int i=sc.nextInt();
+System.out.println("Input second number");
+int j=sc.nextInt();
+int k=i+j;
+int l=i-j;
+int m=i*j;
+int n=i/j;
+int o=i%j;
+System.out.println("addition of two numbers= "+k);
+System.out.println("addition of two numbers= "+l);
+System.out.println("addition of two numbers= "+m);
+System.out.println("addition of two numbers= "+n);
+System.out.println("addition of two numbers= "+o);
+}
+}
+*/
+
+// Que 7 //
+/*
+import java.util.Scanner;
+class QueSeven
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+
+int i= sc.nextInt();
+for(int m=1;m<=10;m++)
+{
+int k=i*m;
+System.out.println("8 *"+m+"="+k);
+}
+}
+}
+*/
+
+ //Que 8//
+
+/*
+import java.util.Scanner;
+class QueSeven
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+
+int i= sc.nextInt();
+for(int m=1;m<=10;m++)
+{
+int k=i*m;
+System.out.println("8 *"+m+"="+k);
+}
+}
+}
+*/
+
+ //Que 9//
+/*
+public class QueNine
+{
+public static void main(String args[])
+{
+double k=((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+System.out.println(k);
+}
+}
+
+*/
+
+ //Que 11//
+
+/*
+public class QueEleven{
+public static void main(String args[]){
+double R=7.5;
+double perimeter = 2* 3.1437 *R;
+double area= 3.1437 *R *R;
+System.out.println("perimeter = "+perimeter);
+System.out.println("area = "+area);
+}
+}
+*/
+
+//Que 12//
+
+/*
+import java.util.Scanner;
+class QueTwenteen
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter first number");
+int i= sc.nextInt();
+System.out.println("Enter second number");
+int j= sc.nextInt();
+System.out.println("Enter Third number");
+int k= sc.nextInt();
+float f=(i+j+k)/3 ;
+System.out.println("Average of three numbers ="+f);
+}
+}
+*/
+
+//Que 13//
+
+/*
+import java.util.Scanner;
+class QueThirteen
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter width ");
+float i= sc.nextFloat();
+System.out.println("Enter Height ");
+float j= sc.nextFloat();
+float k=i*j;
+float l=2*(i+j);
+System.out.println("Area is "+i+"*"+j+"="+k);
+System.out.println("Perimeter is "+"2*"+"("+i+"+"+j+")"+"="+l);
+}
+}
+*/
+
+ //Que 14//
+
+/*
+public class Fourteen
+{
+public static void main(String args[])
+{
+   for(int k=1;k<=5;k++)
+{
+  if(k%2==0)
+{
+   for(int i=1;i<=5;i++)
+   {
+  System.out.print("  *");
+   }
+System.out.print("   ");
+for(int j=1;j<=20;j++)
+   {
+   System.out.print("=");
+   }
+System.out.println();
+}
+  else
+{
+  for(int i=1;i<=6;i++)
+  {
+  System.out.print(" * ");
+   }
+ for(int j=1;j<=20;j++)
+   {
+   System.out.print("=");
+   }
+ System.out.println();
+}
+}
+{
+for(int m=1;m<=5;m++)
+{
+for(int L=1;L<=38;L++)
+{
+ System.out.print("=");
+}
+System.out.println();
+}
+}
+}
+}
+*/
+
+
+ //Que 15//
+
+/*
+import java.util.Scanner;
+public class QueFifteen{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter two numbers");
+int i = sc.nextInt();
+int j= sc.nextInt();
+System.out.println("Numbers before swapping "+i+" "+j);
+int temp;
+temp=i;
+i=j;
+j=temp;
+System.out.println("Numbers after swapping "+i+" "+j);
+
+}
+}
+
+*/
+
+//Que 16//
+
+/*
+public class QueSixteen{
+public static void main(String args[]){
+System.out.println(" +\"\"\"\"\"+ ");
+System.out.println("[| o o |]");
+System.out.println(" |  ^  | ");
+System.out.println(" | '-' | ");
+System.out.println(" +-----+ ");
+}
+}
+*/
+
+
